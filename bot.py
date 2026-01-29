@@ -130,7 +130,7 @@ async def on_message(message):
             ),
             color=discord.Color.red()
         )
-        embed.set_footer(text="Tu dois croire en l'âme des cartes 🎴")
+        embed.set_footer(text="Texte")
         
         if bot.user.avatar:
             embed.set_thumbnail(url=bot.user.avatar.url)
@@ -169,4 +169,5 @@ if __name__ == "__main__":
         await bot.start(TOKEN)
 
     asyncio.run(start())
+
 
